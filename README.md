@@ -20,3 +20,16 @@ To build and run the application, you need to have the following software instal
 
 To build the application for production, run the following command:
 
+
+## Packages Used
+
+This project relies on the following Node.js packages:
+
+- [axios](https://www.npmjs.com/package/axios): a package for making HTTP requests
+- [body-parser](https://www.npmjs.com/package/body-parser): a package for parsing HTTP request bodies
+- [cors](https://www.npmjs.com/package/cors): a package for enabling Cross-Origin Resource Sharing (CORS) between different domains
+- [dotenv](https://www.npmjs.com/package/dotenv): a package for loading environment variables from a `.env` file
+- [express](https://www.npmjs.com/package/express): a web framework for Node.js
+- [express-oauth2-jwt-bearer](https://www.npmjs.com/package/express-oauth2-jwt-bearer): a package for handling OAuth 2.0 authentication with JSON Web Tokens (JWT)
+
+These packages are listed in the `dependencies` field of the `package.json` file. To install them, run `npm install`.
